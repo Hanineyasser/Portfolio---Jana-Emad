@@ -2,6 +2,7 @@ import {
   faFacebookF,
   faInstagram,
   faLinkedin,
+  faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -9,7 +10,7 @@ const socialIcons = [
     { icon: faFacebookF, link: "#!" },
     { icon: faInstagram, link: "#!" },
     { icon: faLinkedin, link: "https://linkedin.com/in/jana-emad-2b2b91321" },
-    // add the github link and icon 
+    { icon: faGithub, link: "https://github.com/JanaEmad04" },
 ];
 
 const SocialMedia = () => {

@@ -2,6 +2,14 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const WorkTogether = () => {
+  const handleScrollToContact = (e) => {
+    e.preventDefault();
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="py-25 max-w-169 mx-auto px-2">
       <div className="text-center">
@@ -13,7 +21,8 @@ const WorkTogether = () => {
           connect and build something amazing together.
         </p>
         <a
-          href="Contact.jsx"
+          href="#contact"
+          onClick={handleScrollToContact}
           className="btn btn-primary px-4 md:px-6.5 py-3 md:py-6 text-[12px] md:text-[16px]"
         >
           Let's work Together

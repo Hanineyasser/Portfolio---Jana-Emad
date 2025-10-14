@@ -39,11 +39,13 @@ const Profession = () => {
                         to learn and contribute to new and challenging projects.
                     </p>
                 </div>
-                <a
-                    href="#!"
-                    className="mt-5 md:mt-12.5 btn btn-primary text-white w-fit md:py-3 md:px-6 text-[12px] sm:text-[16px] font-semibold max-md:mx-auto max-md:mb-5">
-                    Say Hello!
-                </a>
+                <p className="text-center lg:text-start">
+                    <a
+                        href="mailto:es-janaah.emad2027@alexu.edu.eg?subject=Portfolio Inquiry&body=Hello Jana, saw your portfolio and I'd like to connect."
+                        className="mt-5 md:mt-12.5 btn btn-primary text-white w-fit md:py-3 md:px-6 text-[12px] sm:text-[16px] font-semibold max-md:mx-auto max-md:mb-5">
+                        Say Hello!
+                    </a>
+                </p>
             </div>
             <div className="">
                 {rolesData.map((role, index) => (
