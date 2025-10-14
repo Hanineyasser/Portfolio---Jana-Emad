@@ -8,7 +8,6 @@ const GymMembershipPage = lazy(() =>
 );
 const Main = lazy(() => import("../layouts/Main"));
 
-const repoName = import.meta.env.VITE_REPO_NAME || "";
 
 export const router = createBrowserRouter(
     [
@@ -34,6 +33,6 @@ export const router = createBrowserRouter(
                 },
             ],
         },
-    ],
-    { basename: `/${repoName}` }
+    ]
+
 );
